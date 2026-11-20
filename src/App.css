@@ -129,14 +129,17 @@ button {
 .card-buttons {
     margin-top: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
 }
 .card-buttons button {
     margin-right: 0;
 }
 .edit-btn {
     background-color: #25845f;
+    
 }
 .delete-btn {
     background-color: #cf4848;
@@ -189,11 +192,9 @@ button {
     .contact-card {
         padding: 18px;
     }
-
     .list-heading {
         font-size: 20px;
     }
-
     button {
         padding: 10px 14px;
     }
